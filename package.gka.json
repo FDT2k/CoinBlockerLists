@@ -1,0 +1,22 @@
+{
+  "project_name": "CoinsBaseList",
+  "services": [
+
+    {
+      "path": "",
+      "registry_key": "",
+      "gravity":[
+        {
+          "url": "https://zerodot1.gitlab.io/CoinBlockerLists/hosts",
+          "sanitize":true,
+          "filters": ["coinbase.com"]
+        }
+      ],
+      "recipes": [
+        "/home/fabien/Documents/work/gka-ms-catalog/src/recipes/customize_pihole_list"
+      ]
+
+    }
+  ]
+
+}

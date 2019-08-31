@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@geekagency/gka-cli-pm": "^0.0.7"
+  },
+  "scripts":{
+    "recipes": "./node_modules/@geekagency/gka-cli-pm/src/Recipes/recipes.js ."
+  }
+}
